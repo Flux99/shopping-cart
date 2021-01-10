@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.products {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+.product{
+  padding:40px;
+}
+.product-img {
+  width: 300px;
+  height: auto;
+}
